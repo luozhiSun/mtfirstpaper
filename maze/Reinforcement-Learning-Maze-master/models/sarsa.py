@@ -9,7 +9,7 @@ from models import AbstractModel
 
 
 class SarsaTableModel(AbstractModel):
-    """ Tabular SARSA based prediction model.
+    """ Tabular SARSA based prediction model.bjbjj
 
         For every state (here: the agents current location ) the value for each of the actions is stored in a table.
         The key for this table is (state + action). Initially all values are 0. When playing training games
